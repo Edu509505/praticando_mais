@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 1;
+    font-style: normal;
+}
+
+:root{
+    --cor-Letra-Tema-Claro: black;
+    --cor-Letra-Tema-Escuro: white;
+    --background-Tema-Claro: white;
+    --backgroud-Tema-Escuro: black;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--background-Tema-Claro);
+    color: var(--cor-Letra-Tema-Claro);
+    transition: 200ms;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem 0;
+    transition: 200ms;
+
+}
+
+.imgTema{
+    background-image: url('./lua-crescente.png');
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0 2rem;
+    transition: 200ms;
+}
+
+.imgTema:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+main{
+    width: 80%;
+    text-align: center;
+    margin: 1rem 0;
+    transition: 200ms;
+}
