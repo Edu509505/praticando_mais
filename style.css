@@ -3,7 +3,7 @@
     padding: 0;
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
-    font-weight: 1;
+    font-weight: 550;
     font-style: normal;
 }
 
@@ -11,7 +11,7 @@
     --cor-Letra-Tema-Claro: black;
     --cor-Letra-Tema-Escuro: white;
     --background-Tema-Claro: white;
-    --backgroud-Tema-Escuro: black;
+    --backgroud-Tema-Escuro: rgb(10, 10, 10);
 }
 
 body{
